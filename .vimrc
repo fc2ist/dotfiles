@@ -33,7 +33,7 @@ set whichwrap=b,s,h,l,<,>,[,]
 " シンタックスハイライト
 syntax on
 " カラースキーム
-colorscheme molokai
+colorscheme desert
 " カーソル移動の設定
 set whichwrap=b,s,h,l,<,>,[,]
 " BSの設定
@@ -55,7 +55,7 @@ augroup cch
 augroup END
 :hi clear CursorLine
 :hi CursorLine gui=underline
-"highlight CursorLine ctermbg=black guibg=black
+highlight CursorLine ctermbg=black guibg=black
 " ESC2回押しで検索ハイライトの消去
 nmap <ESC><ESC> ;nohlsearch<CR><ESC>
 " 保存時に行末の空白を除去する
